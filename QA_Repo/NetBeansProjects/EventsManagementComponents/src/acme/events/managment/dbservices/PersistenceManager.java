@@ -30,20 +30,28 @@ public class PersistenceManager {
     private static void connect() throws ClassNotFoundException, SQLException {
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
         //must live in a configuration file
-        String connectionUrl = "jdbc:sqlserver://STUDENT04\\SQLEXPRESS:1433;databaseName=Events;integratedSecurity=true;";
+        String connectionUrl = "jdbc:sqlserver://E0443259\\SQLEXPRESS:1433;databaseName=Events;integratedSecurity=true;";
         conn = DriverManager.getConnection(connectionUrl);
     }
 
     public static void saveToDb(Speaker speaker) throws SQLException, ClassNotFoundException {
-        connect();
+     //   connect();
         PreparedStatement ps = conn.prepareStatement("insert into speaker(name,rate,contactNumber)values(?,?,?)");
         ps.setString(1, speaker.getName());
         ps.setDouble(2, speaker.getRate());
         ps.setString(3, speaker.getContactNumber());
-
+     
         ps.execute();
     }
 
+    public static void deleteFromDb(Speaker speaker) throws SQLException, ClassNotFoundException {
+       // connect();
+        PreparedStatement ps = conn.prepareStatement("Delete from speaker(name,rate,contactNumber)values(?)");
+       // ps.setInt(4, speaker.getId());
+
+        ps.execute();
+    }
+    
     public static List<Speaker> findSpeakerWithHighestRate() {
         return null;
     }
@@ -60,17 +68,15 @@ public class PersistenceManager {
         try {
             connect();
             ResultSet rs = conn.prepareStatement("select id, name, rate, contactnumber from speaker").executeQuery();
-
             while (rs.next()) {
-                speakers.add(new Speaker(rs.getString("name"), UIManager.getString("contactnumber"), rs.getDouble("rate")));
+                speakers.add(new Speaker(rs.getString("name"), UIManager.getString("contactnumber"), rs.getDouble("rate")/**, rs.getInt(0)-->**/));
             }
-
         } catch (SQLException | ClassNotFoundException ex) {
             Logger.getLogger(PersistenceManager.class.getName()).log(Level.SEVERE, null, ex);
         }
         return speakers;
     }
+}
 //    public static List<Speaker> getSpeakers(List<Speaker> speakers){
 //    return speakers;
-//    }
-}
+//

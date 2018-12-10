@@ -22,16 +22,21 @@ public class SpeakerController {
             PersistenceManager.saveToDb(speaker);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(SpeakerController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }    
+    public static void delete(Speaker speaker){
+        try {
+            PersistenceManager.deleteFromDb(speaker);
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
             //report and log the exception
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(SpeakerController.class.getName()).log(Level.SEVERE, null, ex);
         }
-
     }
-
     public static String getAllSpeakers() {
         return PersistenceManager.getSpeakers().toString();
     }
-    
-
 }

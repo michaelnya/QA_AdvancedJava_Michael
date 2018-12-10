@@ -15,43 +15,40 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-
+import static jdk.nashorn.internal.runtime.Debug.id;
 /**
  *
  * @author Administrator
  */
 public class SpeakerUIController implements Initializable {
-
     @FXML
     TextField speakerName;
     @FXML
     TextField rate;
     @FXML
     TextField contact;
-    @FXML
-    TextArea allSpeakers;
-
+//    @FXML
+//    TextArea allSpeakers;
+    
+    
+    
+    
     @FXML
     private void handleButtonAction(ActionEvent event) {
-//        System.out.println("You clicked me!");
-//        label.setText("Hello World!");
-
         String Name = speakerName.getText();
         double Rate = Double.parseDouble(rate.getText());
         String Contact = contact.getText();
+        int Id = Int.parseInt(id.getText());
 
-        SpeakerController.save(new Speaker(Name,Contact,Rate));
+        SpeakerController.save(new Speaker(Name,Contact,Rate,Id));
         
         System.out.println(Name);
         System.out.println(Rate);
-        System.out.println(Contact);
-    
-        
+        System.out.println(Contact);        
     }
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }
-
 }

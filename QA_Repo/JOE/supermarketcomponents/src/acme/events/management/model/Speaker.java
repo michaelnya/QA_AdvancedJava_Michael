@@ -14,7 +14,7 @@ public class Speaker {
     private final String name;
     private final String contactNumber;
     private final double rate;
-    private int Id;
+    private int id;
     
     public Speaker(String name,  String contactNumber, double rate) {
 
@@ -23,8 +23,8 @@ public class Speaker {
         this.name = name;
     }
     
-    public Speaker(String name, int Id, String contactNumber, double rate) {
-        this.Id = Id;
+    public Speaker(String name, int id, String contactNumber, double rate) {
+        this.id = id;
         this.contactNumber = contactNumber;
         this.rate = rate;
         this.name = name;
@@ -44,17 +44,15 @@ public class Speaker {
     }
     
     public int getId(){
-        return Id;
+        return id;
     }
 
     public void setId(int Id) {
-        this.Id = Id;
+        this.id = Id;
     }
 
     @Override
     public String toString() {
-        return "Name: " + name + "\nContact Number: " + contactNumber + "\nRate: " + rate + "Id: \n" + Id + "\n";
+        return "Name: " + name + "\nContact Number: " + contactNumber + "\nRate: " + rate + "Id: \n" + id + "\n";
     }
-    
-    
 }
