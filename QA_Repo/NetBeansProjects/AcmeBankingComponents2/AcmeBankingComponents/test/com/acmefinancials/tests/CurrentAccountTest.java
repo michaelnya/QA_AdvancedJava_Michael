@@ -102,8 +102,11 @@ public class CurrentAccountTest {
     public void testGetBalanceAsEuro() {
         //Arrange
         ForexService fakeForexService = new FakeForexService();
-        //1.11 - EURO/GBP
+        currentAccount.setForexService(fakeForexService);
         BigDecimal expectedEuroBalance  =  new BigDecimal(Double.toString(133.755));
+        
+        
+        Balance actBalance
         double euroRate = fakeForexService.getRateByCode("EUR");
 
         //Act
