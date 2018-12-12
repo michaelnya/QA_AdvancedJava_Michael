@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JOE/Acme Events Management/Acme Events Management.iml" filepath="$PROJECT_DIR$/JOE/Acme Events Management/Acme Events Management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/Acme Events Management FX/Acme Events Management FX.iml" filepath="$PROJECT_DIR$/JOE/Acme Events Management FX/Acme Events Management FX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/Acme Events Management/Acme Events Management1.iml" filepath="$PROJECT_DIR$/NetBeansProjects/Acme Events Management/Acme Events Management1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/Acme Events ManagementFX/Acme Events ManagementFX.iml" filepath="$PROJECT_DIR$/NetBeansProjects/Acme Events ManagementFX/Acme Events ManagementFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/AcmeEventsManagements/AcmeEventsManagements.iml" filepath="$PROJECT_DIR$/NetBeansProjects/AcmeEventsManagements/AcmeEventsManagements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/AssignmentHints-30-10-Tutorial/AssignmentHints-30-10-Tutorial.iml" filepath="$PROJECT_DIR$/JOE/AssignmentHints-30-10-Tutorial/AssignmentHints-30-10-Tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/Cam-2003-Exam/Cam-2003-Exam.iml" filepath="$PROJECT_DIR$/JOE/Cam-2003-Exam/Cam-2003-Exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/Cam2011-00-Paper1/Cam2011-00-Paper1.iml" filepath="$PROJECT_DIR$/NetBeansProjects/Cam2011-00-Paper1/Cam2011-00-Paper1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/Collections-29-10-19/Collections-29-10-19.iml" filepath="$PROJECT_DIR$/NetBeansProjects/Collections-29-10-19/Collections-29-10-19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/Collections-29-10-Tutorial/Collections-29-10-Tutorial.iml" filepath="$PROJECT_DIR$/JOE/Collections-29-10-Tutorial/Collections-29-10-Tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/Coordinate/Coordinate.iml" filepath="$PROJECT_DIR$/NetBeansProjects/Coordinate/Coordinate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/Database-Integration-31-10-Tutorial/Database-Integration-31-10-Tutorial.iml" filepath="$PROJECT_DIR$/JOE/Database-Integration-31-10-Tutorial/Database-Integration-31-10-Tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/Event/Event.iml" filepath="$PROJECT_DIR$/NetBeansProjects/Event/Event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/EventsManagementComponents/EventsManagementComponents.iml" filepath="$PROJECT_DIR$/NetBeansProjects/EventsManagementComponents/EventsManagementComponents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/Extended-O-O-30-10/Extended-O-O-30-10.iml" filepath="$PROJECT_DIR$/NetBeansProjects/Extended-O-O-30-10/Extended-O-O-30-10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/Extended-OO-30-10-Tutorial/Extended-OO-30-10-Tutorial.iml" filepath="$PROJECT_DIR$/JOE/Extended-OO-30-10-Tutorial/Extended-OO-30-10-Tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/Fundamentals-29-10-Tutorial/Fundamentals-29-10-Tutorial.iml" filepath="$PROJECT_DIR$/JOE/Fundamentals-29-10-Tutorial/Fundamentals-29-10-Tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/Fundamentals-Michael/Fundamentals-Michael.iml" filepath="$PROJECT_DIR$/NetBeansProjects/Fundamentals-Michael/Fundamentals-Michael.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/Generics/Generics.iml" filepath="$PROJECT_DIR$/NetBeansProjects/Generics/Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/Generics-30-10-Tutorial/Generics-30-10-Tutorial.iml" filepath="$PROJECT_DIR$/JOE/Generics-30-10-Tutorial/Generics-30-10-Tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/JavaApplication1/JavaApplication1.iml" filepath="$PROJECT_DIR$/NetBeansProjects/JavaApplication1/JavaApplication1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/JavaFXApplication2/JavaFXApplication2.iml" filepath="$PROJECT_DIR$/JOE/JavaFXApplication2/JavaFXApplication2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/JavaFXApplication3/JavaFXApplication3.iml" filepath="$PROJECT_DIR$/JOE/JavaFXApplication3/JavaFXApplication3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/JavaFXApplication4/JavaFXApplication4.iml" filepath="$PROJECT_DIR$/JOE/JavaFXApplication4/JavaFXApplication4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/MySimpleCalc/MySimpleCalc.iml" filepath="$PROJECT_DIR$/NetBeansProjects/MySimpleCalc/MySimpleCalc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/MySimpleCalculator/MySimpleCalculator.iml" filepath="$PROJECT_DIR$/NetBeansProjects/MySimpleCalculator/MySimpleCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/MySimpleCalculator/MySimpleCalculator1.iml" filepath="$PROJECT_DIR$/JOE/MySimpleCalculator/MySimpleCalculator1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/Reserved-KeyWords-Tutorial/Reserved-KeyWords-Tutorial.iml" filepath="$PROJECT_DIR$/JOE/Reserved-KeyWords-Tutorial/Reserved-KeyWords-Tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/ReversedKeywords/ReversedKeywords.iml" filepath="$PROJECT_DIR$/NetBeansProjects/ReversedKeywords/ReversedKeywords.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/SupermarketFX/SupermarketFX.iml" filepath="$PROJECT_DIR$/JOE/SupermarketFX/SupermarketFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/SupermarketOffersLib/SupermarketOffersLib.iml" filepath="$PROJECT_DIR$/JOE/SupermarketOffersLib/SupermarketOffersLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/Supermarket_Offers/Supermarket_Offers.iml" filepath="$PROJECT_DIR$/NetBeansProjects/Supermarket_Offers/Supermarket_Offers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/supermarketcomponents/supermarketcomponents.iml" filepath="$PROJECT_DIR$/JOE/supermarketcomponents/supermarketcomponents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetBeansProjects/supermarkettestharness/supermarkettestharness.iml" filepath="$PROJECT_DIR$/NetBeansProjects/supermarkettestharness/supermarkettestharness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOE/supermarkettestharness/supermarkettestharness1.iml" filepath="$PROJECT_DIR$/JOE/supermarkettestharness/supermarkettestharness1.iml" />
+    </modules>
+  </component>
+</project>

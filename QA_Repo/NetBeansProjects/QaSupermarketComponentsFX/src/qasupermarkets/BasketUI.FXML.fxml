@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="609.0" prefWidth="1111.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="qasupermarkets.BucketUIController">
+   <children>
+      <Pane layoutX="18.0" layoutY="38.0" prefHeight="505.0" prefWidth="1067.0">
+         <children>
+            <Button layoutX="953.0" layoutY="90.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="74.0" text="Add" />
+            <Button layoutX="953.0" layoutY="166.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="74.0" text="Remove" />
+            <Button layoutX="953.0" layoutY="428.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="74.0" text="Exit" />
+            <TextArea layoutX="36.0" layoutY="88.0" prefHeight="392.0" prefWidth="878.0" />
+            <Button layoutX="953.0" layoutY="253.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="74.0" text="Empty" />
+            <ComboBox layoutX="89.0" layoutY="25.0" prefHeight="48.0" prefWidth="187.0" />
+            <Label layoutX="403.0" layoutY="4.0" prefHeight="21.0" prefWidth="65.0" text="Price" />
+            <TextArea layoutX="345.0" layoutY="25.0" prefHeight="21.0" prefWidth="150.0" />
+            <Label layoutX="126.0" layoutY="-8.0" prefHeight="45.0" prefWidth="114.0" text="Product Name:" />
+         </children>
+      </Pane>
+      <TextArea layoutX="144.0" layoutY="543.0" prefHeight="48.0" prefWidth="160.0" />
+      <TextArea layoutX="771.0" layoutY="543.0" prefHeight="31.0" prefWidth="160.0" />
+      <Label layoutX="61.0" layoutY="557.0" prefHeight="21.0" prefWidth="74.0" text="No. Items" />
+      <Label layoutX="713.0" layoutY="557.0" prefHeight="21.0" prefWidth="53.0" text="Total" />
+   </children>
+</AnchorPane>

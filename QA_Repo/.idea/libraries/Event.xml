@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Event">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/NetBeansProjects/Event/dist/Event.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
